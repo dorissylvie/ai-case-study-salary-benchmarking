@@ -1,0 +1,46 @@
+# ==========================================
+# 1. Sécurité & Secrets (NE JAMAIS PUBLIER)
+# ==========================================
+.env
+.env.*
+*.pem
+*.key
+
+# ==========================================
+# 2. Environnement virtuel Python
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+
+# ==========================================
+# 3. Fichiers et cache Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# ==========================================
+# 4. Jupyter Notebooks (fichiers temporaires)
+# ==========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==========================================
+# 5. Modèles ML et gros fichiers de données
+# ==========================================
+# Si vous ne voulez pas partager les gros CSV ou modèles lourds
+models/*.pkl
+models/*.joblib
+
+# ==========================================
+# 6. Fichiers système & IDE
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
